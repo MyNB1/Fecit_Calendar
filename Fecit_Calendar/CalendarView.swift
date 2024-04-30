@@ -27,8 +27,8 @@ struct CalendarView: View {
                                 Spacer()
                             }
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(selectedCell == item || (isHovered && selectedCell != item) ? Color.gray : Color.clear)
-                            .border(Color.gray, width: 0.2)
+                            .background(selectedCell == item ? Color.gray.opacity(0.1) : Color.clear)
+                            .border(Color.white, width: 0.2)
                         }
                         .aspectRatio(0.5, contentMode: .fit)
                     .buttonStyle(PlainButtonStyle())

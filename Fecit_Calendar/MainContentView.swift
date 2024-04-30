@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-adasd
+
 struct MainContentView: View {
     @State private var selection = 2
     
@@ -68,7 +68,6 @@ struct MainContentView: View {
                     .background(Color.blue)
                     .foregroundColor(.white)
                     CalendarView()
-//                    Spacer()
                 }
             }
             .tabItem {

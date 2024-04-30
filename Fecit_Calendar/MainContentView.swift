@@ -114,12 +114,6 @@ struct MainContentView: View {
     }
 }
 
-extension MainContentView {
-    func Group() {
-        let days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
-    }
-}
-
 #Preview {
     MainContentView()
 }
